@@ -1,0 +1,6 @@
+# add a variable to store our site name
+name: USER_NAME
+email: EMAIL
+github_name: GITHUB_NAME
+# specify Markdown version
+markdown: kramdown
