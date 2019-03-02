@@ -1,0 +1,24 @@
+- name: Corso “AngularJS e MongoDB”
+  where: "GebSoftware"
+  year: 2019
+  content: "JavaScript framework AngularJS e NoSQL database MongoDB"
+
+- name: Corso “Network & Web Security”
+  where: "ACCADEMIA INFORMATICA ROMA"
+  year: 2009
+  content: "OWASP directives – ISO 2700X"
+
+- name: Corso “Web Component Development with Servlet and JSP Technology”
+  where: "SUN MICROSYSTEMS - SUN EDUCATIONAL SERVICES"
+  year: 2006
+  content: "cod. SL-314"
+
+- name: Corso “Architetture web based e Java enterprise applications”
+  where: "NEXSE SOFTWARE ENGINEERING"
+  year: 2004
+  content:
+
+- name: Laurea in Ingegneria Informatica
+  where: "UNIVERSITA' “LA SAPIENZA” DI ROMA"
+  year: 2003
+  content: "Tesi: “Tecniche di aggregazione per il routing in reti di sensori wireless”"

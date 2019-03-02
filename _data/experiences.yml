@@ -1,0 +1,50 @@
+- subject: developer
+  list:
+    - title: Porting di SOAP clients da Axis2 a Apache CXF in applicativo Java
+      where: "RetItalia Internazionale S.p.A."
+      from: 01/2019
+      to: 02/2019
+      tags:
+        - "Generazione classi proxy dai file WSDL (JAXB)"
+        - "Implementazione dei consumers (JAX-WS)"
+
+    - title: Implementazione applicativo Intranet Operatori Locali
+      where: "RetItalia Internazionale S.p.A."
+      from: 10/2018
+      to: 02/2019
+      tags:
+        - "Sviluppo applicativo di gestione di aziende estere per l’Istituto Nazionale per il Commercio Estero"
+        - "Applicazione sviluppata in PHP utilizzando il framework Symfony 3.4"
+        - "Sviluppo su container Docker"
+        - "Deploy con Capistrano"
+        - "Metodologia Agile Scrum"
+
+- subject: docente
+  list:
+    - title: "Laboratorio di formazione su git, GitHub a GitHub Pages"
+      where: Regione Umbria
+      from: 07/2018
+      to: 11/2018
+      tags:
+        - "Sviluppo versione Beta per il sito accesso unico ai servizi delle PA (SUAPE) tramite piattaforma GitHub Pages"
+
+- subject: it manager
+  list:
+    - title: "Laboratorio di formazione su git, GitHub a GitHub Pages"
+      where: Fratelli d'Amico Armatori S.p.A.
+      from: 2010
+      to: 2013
+      tags:
+        - "Gestione dei sistemi informativi e di telecomunicazione della sede e della flotta"
+        - "Analisi e implementazione sistema di gestione infrastruttura IT della sede della societa' e delle navi"
+        - "Analisi e implementazione sistemi di monitoraggio e di sicurezza informatici per l'infrastruttura IT della sede della societa'"
+        - "Analisi e implementazione sistemi di backup and recovery"
+
+- subject: software architect
+  list:
+    - title: "Distributed applicatin deploy"
+      where: Nexse Software Engineering
+      from: 2010
+      to: 2010
+      tags:
+        - "Deploy distribuito di applicazioni J2EE (load balancing, fault tolerance, NFS, NAS configuration)"
