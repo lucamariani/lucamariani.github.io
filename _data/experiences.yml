@@ -8,7 +8,7 @@
         - "Generazione classi proxy dai file WSDL (JAXB)"
         - "Implementazione dei consumers (JAX-WS)"
 
-    - title: Implementazione applicativo Intranet Operatori Locali
+    - title: Sviluppo applicazione web con framework Symfony
       where: "RetItalia Internazionale S.p.A."
       from: 10/2018
       to: 02/2019
