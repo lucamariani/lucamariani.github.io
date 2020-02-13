@@ -1,5 +1,15 @@
 - subject: developer
   list:
+    - title: Sviluppo applicativo
+      where: "Doing Roma"
+      from: 04/2019
+      to: 08/2019
+      tags:
+        - "Sviluppo di nuove features nell’ambito dell’applicativo per il cliente ALD"
+        - "Applicazione sviluppata in PHP utilizzando il framework Symfony 2.8"
+        - "Sviluppo su container Docker"
+        - "Metodologia Agile Scrum"
+
     - title: Porting di SOAP clients da Axis2 a Apache CXF in applicativo Java
       where: "RetItalia Internazionale S.p.A."
       from: 01/2019
