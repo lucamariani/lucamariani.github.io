@@ -32,17 +32,17 @@
 - subject: docente
   list:
     - title: "Competenze digitali su design - Jekyll - Theme tramite la piattaforma collaborativa Github"
-        where: Regione Umbria
-        from: 11/2020
-        to: 02/2021
-        tags:
-          - "Corso di approfondimento sulla libreria Bootstrap Italia e suo utilizzo per lo sviluppo del nuovo sito (BETA) accesso unico ai servizi delle PA (SUAPE) tramite piattaforma GitHub Pages"
+      where: Regione Umbria
+      from: 11/2020
+      to: 02/2021
+      tags:
+        - "Corso di approfondimento sulla libreria Bootstrap Italia e suo utilizzo per lo sviluppo del nuovo sito (BETA) accesso unico ai servizi delle PA (SUAPE) tramite piattaforma GitHub Pages"
     - title: "Accesso unico ai servizi della PA: competenze digitali su piattaforma collaborativa Github"
-        where: Regione Umbria
-        from: 04/2019
-        to: 10/2019
-        tags:
-          - "Corso di approfondimento sulle tecnologie utilizzate per lo sviluppo del portale: Suite CSS, Jekyll, GitHub Pages"
+      where: Regione Umbria
+      from: 04/2019
+      to: 10/2019
+      tags:
+        - "Corso di approfondimento sulle tecnologie utilizzate per lo sviluppo del portale: Suite CSS, Jekyll, GitHub Pages"
     - title: "Laboratorio di formazione su git, GitHub e GitHub Pages"
       where: Regione Umbria
       from: 07/2018
