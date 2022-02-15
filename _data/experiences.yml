@@ -1,5 +1,14 @@
 - subject: developer
   list:
+    - title: Applicazione per la gestione del ciclo attivo
+      where: "Pick Center Roma"
+      from: 09/2019
+      to: 03/2021
+      tags:
+        - Analisi, progettazione e sviluppo di un applicativo per la gestione del ciclo attivo integrata nei processi del cliente
+        - Applicazione sviluppata in PHP utilizzando il framework Symfony 5
+        - Sviluppo su container Docker
+
     - title: Sviluppo applicativo
       where: "Doing Roma"
       from: 04/2019
