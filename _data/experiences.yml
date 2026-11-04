@@ -1,5 +1,104 @@
-- subject: developer
+- subject: devops / cloud
   list:
+    - title: Piattaforma per la digitalizzazione dei processi portuali (Technical Lead DevOps / Backend)
+      where: "AdSP dello Stretto"
+      from: 11/2025
+      to: oggi
+      tags:
+        - "Gestione dei deploy su Kubernetes (Azure) negli ambienti di collaudo e produzione: Deployment, Service, ConfigMap, NGINX Ingress con TLS e canary release tramite header"
+        - "Migrazione del portale Liferay 6.2 → 7.4 con il coordinamento di uno sviluppatore dedicato; passaggio sul cluster senza disservizi, con le due versioni in parallelo e possibilità di rollback"
+        - "Introduzione di un processo di Spec-Driven Development con Claude Code per gli evolutivi dei microservizi: specifica approvata come primo passo, quindi implementazione e test generati con AI e sottoposti a revisione tecnica"
+        - "Analisi delle cause e stesura di runbook per gli incidenti sull'infrastruttura SSO (OpenAM/OpenDJ, SPID)"
+        - "Tecnologie: Kubernetes, Azure, NGINX Ingress, Docker, Java, Spring Boot, Liferay 7.4, PostgreSQL, OpenAM, Claude Code"
+
+    - title: Applicazione per il monitoraggio GPL - analisi e migrazione a Polo Strategico Nazionale (PSN)
+      where: "MASE"
+      from: 01/2026
+      to: 03/2026
+      tags:
+        - "Analisi e migrazione dell'applicativo nell'ambiente PSN della Pubblica Amministrazione"
+        - "Upgrade applicativi e dockerizzazione dei servizi per l'integrazione con AKS"
+        - "Tecnologie: Azure Kubernetes Service (AKS), Frontend React 18, Backend Java 17, Jakarta EE 10, MicroProfile 6.1, JPA, Oracle"
+
+    - title: Applicazione per il monitoraggio GPL - conduzione
+      where: "MASE"
+      from: 09/2024
+      to: 12/2025
+      tags:
+        - "Supporto applicativo"
+        - "Tecnologie: Frontend React 18, Backend Java 8, Jakarta EE 8, MicroProfile 3.3, JPA, Oracle"
+
+    - title: Migrazione applicativi
+      where: "PickCenter"
+      from: 11/2023
+      to: 09/2024
+      tags:
+        - "Analisi per la migrazione ai nuovi applicativi sviluppati per il cliente"
+        - "Definizione delle nuove macchine e delle loro interazioni; sviluppo applicativo per la migrazione dei dati nei nuovi ambienti"
+
+- subject: backend developer
+  list:
+    - title: Gestionale soci e pagamenti per un'associazione nazionale di psicologi
+      where: "AUPI"
+      from: 06/2024
+      to: oggi
+      tags:
+        - "Progettazione e sviluppo del gestionale con cui la segreteria gestisce anagrafe degli iscritti, iscrizioni annuali, aziende sanitarie (ASL) e pagamenti delle quote, con API JSON utilizzate dalla piattaforma ECM e dal sito istituzionale"
+        - "Introduzione di un processo di Spec-Driven Development per lo sviluppo assistito da AI con Claude Code: ogni modifica a rischio (pagamenti, API, report, migrazioni, dati di produzione) parte da requisiti, piano e piano di validazione scritti e approvati prima del codice"
+        - "Utilizzo di Claude Code come agente di sviluppo all'interno di un perimetro definito: istruzioni di progetto (CLAUDE.md), invarianti di dominio documentati, test prima del codice e code review sul diff"
+        - "Tecnologie: Symfony 7.3, PHP 8.2, Doctrine, API Platform, MariaDB, Docker, Claude Code"
+
+    - title: Applicazione per la gestione degli iscritti
+      where: "AUPI"
+      from: 07/2024
+      to: 03/2025
+      tags:
+        - "Analisi, progettazione e sviluppo di un applicativo per la gestione degli iscritti"
+        - "Interfaccia REST per l'integrazione con il sito aziendale e con la piattaforma di erogazione dei corsi ECM"
+        - "Applicazione sviluppata in PHP utilizzando il framework Symfony 7"
+
+    - title: Backend di configurazione e interfacciamento del nuovo portale
+      where: "Registro Eccellenze Italiane"
+      from: 06/2023
+      to: oggi
+      tags:
+        - "Analisi, progettazione e sviluppo di un applicativo per la gestione del portale e delle interfacce REST per il nuovo frontend"
+        - "Tecnologie: PHP, Symfony 6, MariaDB, Docker"
+
+    - title: PNE - Programma Nazionale Esiti
+      where: "AGENAS"
+      from: 09/2025
+      to: 12/2025
+      tags:
+        - "Analisi, progettazione e sviluppo dei nuovi requisiti per il piano 2025"
+        - "Caricamento dati per la nuova edizione"
+        - "Tecnologie: Frontend Angular 15, Backend Spring Boot 3, Java 17, JPA, PostgreSQL"
+
+    - title: Integrazioni al sistema di calcolo del fabbisogno del personale del SSN
+      where: "AGENAS"
+      from: 05/2023
+      to: 09/2023
+      tags:
+        - "Analisi e sviluppo di integrazioni al sistema di calcolo precedentemente sviluppato"
+
+    - title: Sistema per il calcolo del fabbisogno del personale del SSN
+      where: "AGENAS"
+      from: 10/2022
+      to: 05/2023
+      tags:
+        - "Analisi, progettazione e sviluppo di un applicativo per il calcolo del fabbisogno del personale del Servizio Sanitario Nazionale"
+        - "Frontend in PHP con framework Laravel: configurazione, esecuzione e visualizzazione dei calcoli"
+        - "Backend realizzato con KNIME Analytics Platform: configurazione ed esecuzione dei flussi KNIME, integrata nel frontend"
+        - "Tecnologie: PHP, Laravel, KNIME Analytics Platform, PostgreSQL, Docker"
+
+    - title: Gestione progetti interni (Sviluppo / Project management)
+      where: "GEB Software"
+      from: 01/2021
+      to: oggi
+      tags:
+        - "Manutenzione e sviluppo evolutivo dei progetti interni con tecnologie varie"
+        - "Tecnologie: PHP Symfony, Drupal 7 / 8, Java Spring, Angular"
+
     - title: Applicazione per la gestione del ciclo attivo
       where: "Pick Center Roma"
       from: 09/2019
@@ -37,6 +136,77 @@
         - "Sviluppo su container Docker"
         - "Deploy con Capistrano"
         - "Metodologia Agile Scrum"
+
+- subject: iam / sso
+  list:
+    - title: Piattaforma per la digitalizzazione dei processi portuali - infrastruttura SSO
+      where: "AdSP dello Stretto"
+      from: 11/2025
+      to: oggi
+      tags:
+        - "Analisi delle cause e stesura di runbook per gli incidenti sull'infrastruttura SSO (OpenAM/OpenDJ, SPID)"
+        - "Tecnologie: OpenAM, OpenDJ, SPID"
+
+    - title: Integrazione IAM del MIM
+      where: "USR Lombardia"
+      from: 10/2024
+      to: 10/2024
+      tags:
+        - "Integrazione di nuovi applicativi al servizio IAM del MIM (Ministero dell'Istruzione e del Merito) per l'autenticazione degli utenti"
+        - "Tecnologie: Shibboleth Service Provider 3, Apache"
+
+    - title: Autenticazione SPID tramite Gateway SaaS
+      where: "USR Lombardia"
+      from: 01/2024
+      to: 01/2024
+      tags:
+        - "Integrazione di nuovi applicativi al servizio GEL (Gateway Enti Locali) di ARIA (Azienda Regionale per l'Innovazione e gli Acquisti) per l'autenticazione tramite SPID"
+        - "Tecnologie: Shibboleth Service Provider 3, Apache"
+
+- subject: project management / tech lead
+  list:
+    - title: Piattaforma per la digitalizzazione dei processi portuali - Technical Lead
+      where: "AdSP dello Stretto"
+      from: 11/2025
+      to: oggi
+      tags:
+        - "Coordinamento di uno sviluppatore dedicato nella migrazione del portale Liferay 6.2 → 7.4, con passaggio sul cluster senza disservizi e possibilità di rollback"
+        - "Revisione tecnica di specifiche, implementazione e test degli evolutivi dei microservizi"
+
+    - title: Gestione dello sviluppo di nuove funzionalità per l'applicativo ENT (Project management)
+      where: "Lutech"
+      from: 05/2022
+      to: 09/2022
+      tags:
+        - "Analisi delle nuove funzionalità, configurazione degli ambienti di sviluppo e test"
+        - "Coordinamento dello sviluppo backend e frontend"
+        - "Tecnologie: Backend Java 1.8 / Spring Boot, WildFly 19.1.0, Oracle 12c, Frontend Angular 10"
+
+    - title: Gestione progetti interni
+      where: "GEB Software"
+      from: 01/2021
+      to: oggi
+      tags:
+        - "Manutenzione e sviluppo evolutivo dei progetti interni, con coordinamento delle attività di sviluppo"
+
+- subject: ai-assisted development
+  list:
+    - title: Piattaforma per la digitalizzazione dei processi portuali - Spec-Driven Development
+      where: "AdSP dello Stretto"
+      from: 11/2025
+      to: oggi
+      tags:
+        - "Introduzione di un processo di Spec-Driven Development con Claude Code per gli evolutivi dei microservizi: specifica approvata come primo passo, quindi implementazione e test generati con AI e sottoposti a revisione tecnica"
+        - "Tecnologie: Claude Code"
+
+    - title: Gestionale soci e pagamenti - Spec-Driven Development con Claude Code
+      where: "AUPI"
+      from: 06/2024
+      to: oggi
+      tags:
+        - "Introduzione di un processo di Spec-Driven Development per lo sviluppo assistito da AI con Claude Code: ogni modifica a rischio (pagamenti, API, report, migrazioni, dati di produzione) parte da requisiti, piano e piano di validazione scritti e approvati prima del codice"
+        - "Utilizzo di Claude Code come agente di sviluppo all'interno di un perimetro definito: istruzioni di progetto (CLAUDE.md), invarianti di dominio documentati, test prima del codice e code review sul diff"
+        - "Tecnologie: Claude Code"
 
 - subject: docente
   list:

@@ -609,6 +609,12 @@ h2.heading span,h3.heading span {
   list-style: circle;
 }
 
+.experience-scroll {
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
 .experience-subject {
     text-align: center;
     text-transform: uppercase;
